@@ -1,6 +1,4 @@
-<!-- VARIABLES
-CodingOnes
--->
+
 MIT License
 
 Copyright (c) 2022 CodingOnes
