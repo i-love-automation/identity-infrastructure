@@ -1,4 +1,7 @@
-
+<!-- VARIABLES
+MODULE_NAME
+ABOUT
+-->
 
 # MODULE_NAME module
 
@@ -32,4 +35,4 @@ I you'd like to please send me an email.
 
 ## License
 
-See the [LICENSE.md](./LICENSE.md) of the repository.
+See the [LICENSE.md](./LICENSE.md) of the repository.}/i-love-automation}}/i-love-automation}}/identity-infrastructure}}/identity}
