@@ -1,7 +1,4 @@
-<!-- VARIABLES
-MODULE_NAME
-ABOUT
--->
+
 
 # MODULE_NAME module
 
