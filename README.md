@@ -4,7 +4,7 @@
 
 ## À propos
 
-identity infrastructure décrit par le code l'infrastructure à provisionner pour la partie authentification de i-love-automation.
+identity infrastructure décrit par le code l'infrastructure à provisionner pour ... de i-love-automation.
 
 ## Table des matières
 
