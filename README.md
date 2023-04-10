@@ -101,8 +101,8 @@ Pour que les modifications de la description de l'infrastructure soient appliqu√
     - Groupe : `identity.deployer`
 - [Terraform Cloud](https://app.terraform.io/) est la plateforme propos√©e par HashiCorp pour administrer les modifications d'infrastructure
     - Organisation : [i-love-automation](https://app.terraform.io/app/i-love-automation/workspaces)
-    - Workspaces : `identity-*`
-        - [identity-production](https://app.terraform.io/app/i-love-automation/workspaces/identity-production)
+    - Workspaces : `identity`
+        - [identity](https://app.terraform.io/app/i-love-automation/workspaces/identity)
     - Variables
         - `AWS_SECRET_ACCESS_KEY`
             - Value : Sensitive - write only
