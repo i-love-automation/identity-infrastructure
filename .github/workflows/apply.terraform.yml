@@ -1,11 +1,8 @@
 #
-name: 'Apply changes to identity'
+name: 'Apply changes to plop'
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   terraform:
