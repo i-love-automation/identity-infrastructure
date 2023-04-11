@@ -1,8 +1,0 @@
-.idea
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraformrc
-terraform.rc
-.terraform.lock.hcl
