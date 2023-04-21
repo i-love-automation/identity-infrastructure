@@ -38,7 +38,7 @@ resource "aws_cognito_user_pool" "main" {
 
   sms_configuration {
     external_id    = "cognito-sms"
-    sns_caller_arn = aws_iam_role.cognito_sns_role
+    sns_caller_arn = aws_iam_role.cognito_sns_role.arn
   }
 
   //  sms_authentication_message = "Votre code d'authentification est {####}"
