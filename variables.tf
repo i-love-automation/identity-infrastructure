@@ -57,3 +57,16 @@ variable "ses_verified_email_identity_source_arn" {
   description = "The ses email configuration set name"
   default     = ""
 }
+
+variable "sms_external_id" {
+  type        = string
+  nullable    = true
+  description = "Sms external id from Amazon pinpoint"
+  default     = false
+}
+variable "sms_external_caller_arn" {
+  type        = string
+  nullable    = true
+  description = "Sms caller arn from Amazon pinpoint sms role"
+  default     = false
+}
