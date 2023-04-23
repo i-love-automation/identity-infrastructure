@@ -62,11 +62,11 @@ variable "sms_external_id" {
   type        = string
   nullable    = true
   description = "Sms external id from Amazon pinpoint"
-  default     = false
+  default     = ""
 }
 variable "sms_external_caller_arn" {
   type        = string
   nullable    = true
   description = "Sms caller arn from Amazon pinpoint sms role"
-  default     = false
+  default     = ""
 }
