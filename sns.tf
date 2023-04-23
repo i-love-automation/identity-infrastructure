@@ -7,5 +7,5 @@ locals {
 
 resource "aws_sns_sms_preferences" "update_sms_prefs" {
   default_sender_id = substr(local.sender_id, 0, 11)
-  default_sms_type  = "Promotional"
+  default_sms_type  = "Transactional"
 }
