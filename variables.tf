@@ -58,15 +58,9 @@ variable "ses_verified_email_identity_source_arn" {
   default     = ""
 }
 
-variable "sms_external_id" {
+variable "sender_id" {
   type        = string
   nullable    = true
-  description = "Sms external id from Amazon pinpoint"
-  default     = ""
-}
-variable "sms_external_caller_arn" {
-  type        = string
-  nullable    = true
-  description = "Sms caller arn from Amazon pinpoint sms role"
+  description = "Sender id. Maximum 11 alphanumeric or hyphen (-) characters, including at least one letter and no spaces. It has to start and end with an alphanumeric character. "
   default     = ""
 }
