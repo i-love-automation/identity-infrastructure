@@ -38,9 +38,9 @@ resource "aws_cognito_user_pool" "main" {
 
   verification_message_template {
     default_email_option = "CONFIRM_WITH_CODE"
-    email_message        = "Votre code de vérification est le {##CODE##}."
+    email_message        = "Votre code de vérification est le {####}."
     email_subject        = "Bienvenue chez ${var.project}, confirmez votre compte !"
-    sms_message          = "Votre code de vérification est le {##CODE##}."
+    sms_message          = "Votre code de vérification est le {####}."
   }
 
   sms_configuration {
